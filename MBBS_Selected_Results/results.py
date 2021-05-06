@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 import openpyxl
 import time
 import random
-
+# Result Scrapping From MBBS Admission Result Website
 driver=webdriver.Chrome('../chromedriver')
 wb=openpyxl.load_workbook("mbbsResultData.xlsx")
 print("Excel Workbook Opened...")
